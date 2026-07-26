@@ -1,0 +1,17 @@
+{
+  "name": "qms-complaint-dashboard",
+  "version": "1.0.0",
+  "description": "QMS Complaint Dashboard — production build",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node start.mjs"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^7.21.0",
+    "nodemailer": "^9.0.3",
+    "pg": "^8.13.3"
+  }
+}
